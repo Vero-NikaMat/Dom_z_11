@@ -40,6 +40,16 @@ a {
 }
 
 .button {
+    color: white;
+    border: 1px solid #554AF0;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: #554AF0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top:5px;
 
 }
 
@@ -48,7 +58,12 @@ a {
 /* Login*/
 
 .input-login {
-
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 100px;
+    margin-top:5px;
 
 }
 
