@@ -96,7 +96,7 @@ a {
 
 .genre-second {
     background-color: #33FFFF;
-   margin-right:25%;
+    margin-right:25%;
 }
 
 .genre-third {
@@ -118,7 +118,7 @@ a {
 /* Страничка популярного */
 
 .cover {
-
+    margin: 10px 10px;
 }
 
 /* Страничка подписки  */
@@ -136,5 +136,14 @@ a {
 }
 
 .button-link {
+    background-color: #554AF0;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right:10px;
 
 }
