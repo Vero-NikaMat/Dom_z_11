@@ -26,16 +26,24 @@ a {
 /* Колонки */
 
 .row {
-
+    display:flex;
 }
 .col {
-
+    flex: auto;
 }
-
+.link {
+    font-family: Arial;
+}
 
 /* Потом селекторы по классам */
 
 .text-input {
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 100px;
+    margin-top:5px;
 
 }
 
@@ -58,9 +66,12 @@ a {
 /* Login*/
 
 .input-login {
-    border-radius: 5px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #E1F5EA;
+    border-radius: 7px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 100px;
     margin-top:5px;
@@ -69,25 +80,39 @@ a {
 
 
 /* Страничка жанров и тегов */
+.genre {
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-top:20px;
+    background-color: #CCCCFF;
+}
 
 .genre-first {
-
+    background-color: #33FFCC;
 }
 
 .genre-second {
-
+    background-color: #33FFFF;
+   margin-right:25%;
 }
 
 .genre-third {
-
-}
+    background-color: #FFCC99;
+    margin-right:50%;
+ }
 
 .genre-fourth {
+    background-color: #CCCCFF;
+    margin-right:75%;
 
 }
 
 .tag {
-
+    color: blue;
+    text-decoration: none;
 }
 
 /* Страничка популярного */
